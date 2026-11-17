@@ -1,8 +1,22 @@
-![Auto Assign](https://github.com/JavaQuest-V1/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
+# Desafio de Programação (Java)
 
-![Proof HTML](https://github.com/JavaQuest-V1/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+Jogo em Java no estilo RPG de turnos, no qual o herói precisa memorizar e remontar códigos para derrotar monstros (bugs).
 
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+## Estrutura de pastas
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+```
+.
+├── src/
+│   └── classes/     # Código-fonte Java (package classes)
+├── test/            # Testes (a implementar)
+├── docs/            # Documentação
+├── .gitignore
+└── README.md
+```
+
+## Como compilar e executar
+
+```bash
+mkdir out
+javac -d out src/classes/*.java
+```
